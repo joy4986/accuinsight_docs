@@ -1,7 +1,8 @@
 > 목차
 > ---
-> 1. [분석 요건에 대한 정의](predict_insolation.md#분석-요건에-대한-정의)
-> 1. [학습](predict_insolation.md#학습)
+> 1. [분석 요건에 대한 정의](insolation.md#분석-요건에-대한-정의)
+>    1. 데이터 정보
+> 1. [학습](insolation.md#학습)
 >    1. 학습 데이터셋 추가
 >         1. 데이터셋 정보 설정
 >         1. 원격 클러스터 실행
@@ -16,7 +17,7 @@
 >         1. Model Description
 >         1. Spark ML code
 >    1. 실행 이력 확인
-> 1. [예측](predict_insolation.md#예측)
+> 1. [예측](insolation.md#예측)
 >     1. 테스트 데이터셋 추가
 >         1. 데이터셋 정보 설정
 >         1. 원격 클러스터 실행
@@ -40,7 +41,10 @@
 
 <br>
 
-- Dataset : 14일 전부터 시간별 일사량, 발전량 데이터
+- Dataset1 `insolation_trainset` : 14일치의 시간별 일사량, 발전량 데이터
+- Dataset2 `insolation_testset` : 직후 2일치의 시간별 일사량, 발전량 데이터
+
+### 입력 데이터 컬럼
 
 | column명 | column 설명 | Value Example |
 |---|:---:|---|
@@ -48,6 +52,14 @@
 | `power` | 발전량 | 7.056 |
 | `insolation` | 일사량 | 0.09 |
 | `insolation_2` | 일사량^2 | 0.0081 |
+
+### 출력 데이터 
+
+| column명 | column 설명 | Value Example |
+|---|:---:|---|
+| `id` | 특정일부터 +x hour | 0,1,2... |
+| `power` | 실측 발전량 | 7.56 |
+| `predict` | 예측 발전량 | 10.19 |
 
 <br/>
 
