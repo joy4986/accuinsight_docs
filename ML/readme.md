@@ -9,9 +9,9 @@
 <br>
 
 1. 시나리오 리스트
-    1. [자전거 수요 예측](bicycle.md)
     1. [발전량 예측](insolation.md)
     1. [식용 버섯 분류](mushroom.md)
+    1. [고객 유형 군집화](customer.md)
 
 <br>
 
