@@ -23,8 +23,18 @@
 
 <br>
 
-- 식용 버섯 분류 시나리오에 대한 분류 모델 결과
+- 식용 버섯 분류 시나리오에 대한 분류 모델 결과 
 
 | LinearRegression | RandomForestClassifier | DecisionTreeClassifier |
 |---|---|---|
 | ![ex_screenshot](./img/4_result/mushroom_LRmodel_eval.png) | ![ex_screenshot](./img/4_result/mushroom_RFCmodel_eval.png) | ![ex_screenshot](./img/4_result/mushroom_DTCmodel_eval.png) |
+
+<br>
+
+- 고객 유형 군집화 결과
+
+| KMeans | GaussianMixture |
+|---|---|
+|  |  |
+
+<br>
