@@ -18,7 +18,7 @@
 
 | LinearRegression | RandomForestRegressor | DecisionTreeRegressor | GeneralizedLinearRegression |
 |---|---|---|---|
-| ![ex_screenshot](./ML/img/4_result/insolation_LRmodel_eval.png) | ![ex_screenshot](./img/4_result/insolation_RFRmodel_eval.png) | ![ex_screenshot](./img/4_result/insolation_DTRmodel_eval.png) | ![ex_screenshot](./img/4_result/insolation_GLRmodel_eval.png) |
+| ![ex_screenshot](./ML/img/4_result/insolation_LRmodel_eval.png) | ![ex_screenshot](./ML/img/4_result/insolation_RFRmodel_eval.png) | ![ex_screenshot](./ML/img/4_result/insolation_DTRmodel_eval.png) | ![ex_screenshot](./ML/img/4_result/insolation_GLRmodel_eval.png) |
 
 <br>
 
@@ -26,4 +26,4 @@
 
 | LinearRegression | RandomForestClassifier | DecisionTreeClassifier |
 |---|---|---|
-| ![ex_screenshot](./img/4_result/mushroom_LRmodel_eval.png) | ![ex_screenshot](./img/4_result/mushroom_RFCmodel_eval.png) | ![ex_screenshot](./img/4_result/mushroom_DTCmodel_eval.png) |
+| ![ex_screenshot](./ML/img/4_result/mushroom_LRmodel_eval.png) | ![ex_screenshot](./ML/img/4_result/mushroom_RFCmodel_eval.png) | ![ex_screenshot](./ML/img/4_result/mushroom_DTCmodel_eval.png) |
